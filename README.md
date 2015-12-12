@@ -22,7 +22,7 @@ function mySuperFunction () {
 function anotherCrazyFunction () {
 	var img = document.createElement("img");
 	img.src = "http://bit.ly/1NVtB31";
-	document.body.append(img);
+	document.body.appendChild(img);
 }
 
 konami.onDone(function(){
